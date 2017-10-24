@@ -14,7 +14,7 @@
   },
   "autoload" : {
     "psr-4" : {
-      "Aphp\\Bundle\\FormsBundle" : ""
+      "Aphp\\Bundle\\FormsBundle\\" : ""
     }
   },
   "repositories": [
