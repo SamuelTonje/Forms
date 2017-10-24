@@ -1,0 +1,31 @@
+{
+  "name" : "aphp/forms-bundle",
+  "description" : "Genrate forms from xml files",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Samuel Tonje",
+    "email" : "sam.tonje@gmail.com"
+  }],
+  "keywords" : [
+    "Forms"
+  ],
+  "license": "proprietary",
+  "require" : {
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Aphp\\Bundle\\FormsBundle" : ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/SamuelTonje/Forms.git"
+    }
+  ],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0.X-dev"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+aphp_forms_homepage:
+    path:     /
+    defaults: { _controller: AphpFormsBundle:Default:index }
